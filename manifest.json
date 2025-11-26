@@ -1,0 +1,12 @@
+{
+  "name": "Waffle N Vibe Cafe",
+  "short_name": "WaffleVibe",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1A1A1A",
+  "theme_color": "#E7C66D",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

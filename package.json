@@ -1,21 +1,34 @@
+
+
 {
   "name": "waffle-n'-vibe-cafe-menu",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
+  "homepage": "https://arshilkukadiya.github.io/WaffleNvibe_Menu/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+
   "dependencies": {
+    "framer-motion": "^12.23.24",
     "lucide-react": "^0.546.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "steam-user": "^5.2.3",
+    "vite-plugin-pwa": "^1.1.0"
   },
+
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "gh-pages": "^6.3.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }

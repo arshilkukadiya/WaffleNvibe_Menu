@@ -1,0 +1,11 @@
+.review-scroll::-webkit-scrollbar {
+  width: 3px;
+}
+.review-scroll::-webkit-scrollbar-thumb {
+  background: #9e9e9e;
+  border-radius: 10px;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+img { image-rendering: auto; }
