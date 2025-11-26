@@ -1,8 +1,23 @@
 🧇 Waffle N Vibe 🍹
-A Modern React + Vite Café Menu Web App with PWA, Reviews, and WhatsApp Ordering
+A Modern React + Vite Café Menu Web App with PWA, Reviews & WhatsApp Ordering
 
-A fully responsive, installable, and offline-ready digital café menu for Waffle N Vibe, built with React + Tailwind + Vite.
-Customers can browse, search, order via WhatsApp, view reviews, and even install it as an app on Android or iPhone.
+A fully responsive, installable, offline-ready digital café menu for Waffle N Vibe, built with React + Tailwind CSS + Vite.
+
+Customers can:
+
+Browse full digital menu
+
+Search items or categories
+
+Add items to cart
+
+Place orders directly via WhatsApp
+
+View real Google reviews
+
+Install the app as PWA
+
+Use it offline like a native app
 
 🚀 Features
 🌐 Core Features
@@ -11,45 +26,53 @@ Customers can browse, search, order via WhatsApp, view reviews, and even install
 
 🧁 Add to cart with smooth animations
 
-💬 WhatsApp order integration
+💬 WhatsApp direct order integration
 
 🔍 Smart search (items + categories)
 
-🏷️ Auto “Best Seller” badges
+🏷️ “Best Seller” auto badges
 
-🌈 Confetti & shine effects
+🌈 Shine effects + confetti on order
 
-📱 Responsive Design
+🎭 Beautiful UI with glassmorphism
 
-Fully optimized for mobile, tablet, laptop, and wide screens
+📱 Fully Responsive Design
 
-Adaptive layouts with flexible grid and auto-resizing images
+Works on all screens → mobile, tablet, laptop, ultrawide
 
-Smooth hover transitions & floating add buttons
+Adaptive grid layout with auto-resizing images
 
-💾 PWA (Progressive Web App)
+Smooth transitions + hover animations
 
-🪄 “Add to Home Screen” support for Android & iOS
+Floating add-to-cart + sticky mini cart
 
-⚡ Offline Mode (Works even without internet)
+💾 Progressive Web App (PWA)
 
-🔁 Auto-update when new version is available
+This project is fully PWA-enabled:
 
-📱 Standalone full-screen app experience
+🪄 Install App popup (Android & iPhone)
 
-🔒 Smart caching for assets & images
+📱 Opens like a native full-screen app
 
-💚 Extra Goodies
+⚡ Offline Mode (cached assets, works without internet)
 
-⭐ Live Google reviews section with carousel
+🔁 Auto update when new version available
 
-📍 Google Maps location embed
+🔒 Smart asset caching
 
-📷 Mini Instagram gallery in footer
+📥 Add to Home Screen (A2HS)
 
-🌟 Social media icons with real logo hover effects
+💚 Extra Goodies (Premium UI Touch)
 
-🎇 Confetti animation when order placed
+⭐ Live Google Reviews Section (carousel + ratings)
+
+📍 Google Maps embedded location
+
+📸 Mini Instagram gallery (footer)
+
+🎨 Real social icons with color-on-hover
+
+🎉 Confetti animation on order
 
 🛒 Sticky floating cart for mobile
 
@@ -58,32 +81,44 @@ Category	Technology
 Frontend	React.js (Vite)
 Styling	Tailwind CSS
 State Management	React Hooks
-Offline Support	Vite PWA Plugin
+PWA Support	Vite Plugin PWA
 Deployment	Vercel / Netlify / Firebase
-Other	WhatsApp Web API Integration, Google Maps Embed
+Integrations	WhatsApp Web API, Google Maps
 ⚙️ Installation
 # Clone the repo
 git clone https://github.com/arshilkukadiya/WaffleNvibe_Menu.git
 
-# Go into the project
+# Navigate into directory
 cd WaffleNvibe_Menu
 
 # Install dependencies
 npm install
 
-# Start the local server
+# Run project
 npm run dev
 
 
-🌐 Build for Production
+App runs at:
+👉 http://localhost:3000
+
+🌐 Production Build
 npm run build
 npm run preview
 
-📲 PWA Setup (already included)
+📲 PWA Setup
 
-This app is PWA-ready.
-When users open it on a mobile browser, they’ll see an “Install App” prompt.
-Once installed, it runs offline, like a native app.
+This app is already PWA-enabled.
+Users will automatically get:
+
+Install App button
+
+Offline functionality
+
+Home screen icon
+
+Standalone mode
+
+No extra setup needed.
 
 📦 Folder Structure
 src/
@@ -107,37 +142,33 @@ src/
 
 💬 WhatsApp Order Flow
 
-1️⃣ Customer selects items →
-2️⃣ Opens cart →
-3️⃣ Enters name →
-4️⃣ Clicks “Send Direct on WhatsApp ✅”
-5️⃣ Redirects to WhatsApp with full order details ready to send.
+1️⃣ Customer selects items
+2️⃣ Opens cart
+3️⃣ Enters name
+4️⃣ Clicks “Send Direct on WhatsApp ✔️”
+5️⃣ Redirected to WhatsApp with auto-filled full bill
 
-📷 Screenshots
-Menu Page	Cart	Reviews	Footer
+📸 Screenshots (Add your images here)
 
+Hero/Home:<img width="1900" height="892" alt="image" src="https://github.com/user-attachments/assets/902eaee7-2c14-47c4-9ae3-de895b96f170" />
+
+Menu:<img width="510" height="336" alt="image" src="https://github.com/user-attachments/assets/7cff7b3b-7a35-441b-9bbc-3233779fa338" />, <img width="514" height="537" alt="image" src="https://github.com/user-attachments/assets/2f3ef275-1df9-4593-b6ea-e4732e40fcc3" />
+
+Cart:<img width="454" height="789" alt="image" src="https://github.com/user-attachments/assets/b2d6ae54-9eef-404e-a161-ead9a3340c7b" />
+
+Reviews:<img width="566" height="325" alt="image" src="https://github.com/user-attachments/assets/17c54b70-bf4f-4a14-bdd2-f50e0aa2a41e" />
+
+Footer:<img width="1899" height="460" alt="image" src="https://github.com/user-attachments/assets/42358e5e-cbb1-46a9-a10e-6bde649e0e07" />
 	
-	
-	
+Add your real images later by replacing # with URLs.
+
 👨‍💻 Developed By
-
 👑 Arshil Kukadiya
-🧠 Full Stack Developer | React & Java Enthusiast
+
+🧠 Full Stack Developer — React & Java
 📍 Surat, India
+🔗 GitHub: https://github.com/arshilkukadiya
 
-
-⭐ Future Enhancements
-
-🧾 Invoice / Bill download
-
-🔔 Push notifications (PWA)
-
-🗃️ Local DB sync for offline orders
-
-🧠 AI-powered menu recommendations
-
-💳 Online payment integration
 
 🩵 License
-
 MIT License © 2025 Arshil Kukadiya
