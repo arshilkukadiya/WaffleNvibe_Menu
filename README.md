@@ -126,9 +126,7 @@ Menu Page	Cart	Reviews	Footer
 👑 Arshil Kukadiya
 🧠 Full Stack Developer | React & Java Enthusiast
 📍 Surat, India
-🔗 LinkedIn
 
-🔗 GitHub
 
 ⭐ Future Enhancements
 
