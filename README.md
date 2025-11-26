@@ -75,8 +75,6 @@ npm install
 npm run dev
 
 
-App will run on ➡️ http://localhost:3000
-
 🌐 Build for Production
 npm run build
 npm run preview
